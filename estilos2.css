@@ -1,0 +1,640 @@
+
+.container{
+	display: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contenedor-bienvenida{
+	width: 100%;
+	height: 100vh;
+	background: #00d8ff;
+	position: absolute;
+	z-index: 200;
+}
+p{
+	position: absolute;
+}
+.a{
+	left: 0;
+	right: 0;
+	text-align: center;
+	animation-name: a;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+
+}
+@keyframes a{
+	0%{
+
+		color:transparent;
+		margin-top:-60px; 
+	}
+	100%{
+		font-size: 90px;
+		color: white;
+		transform: translateY(7px);
+		transition-property:transform,color,font-size ;
+
+	}
+}
+.b{
+	font-size: 50px;
+	margin-top: 260px;
+	left: -105px;
+	animation-name: b;
+	animation-delay: 2s;
+	animation-duration: 1s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes b{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -105px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(160px);
+		transition-property: transform,color;
+	}
+}
+.c{
+	font-size: 50px;
+	margin-top: 260px;
+	left: -105px;
+	animation-name: c;
+	animation-delay: 2s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes c{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -105px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(280px);
+		transition-property: transform,color;
+	}
+}
+.d{
+	font-size: 50px;
+	margin-top: 260px;
+	left: -105px;
+	animation-name: d;
+	animation-delay: 3s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes d{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -105px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(340px);
+		transition-property: transform,color;
+	}
+}
+
+.e{
+	font-size: 50px;
+	margin-top: 260px;
+	left: -200px;
+	animation-name: e;
+	animation-delay: 4s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes e{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -200px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(485px);
+		transition-property: transform,color;
+	}
+}
+.f{
+	font-size: 50px;
+	margin-top: 260px;
+	left: -200px;
+	animation-name: f;
+	animation-delay: 5s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes f{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -70px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(700px);
+		transition-property: transform,color;
+	}
+}
+
+.g{
+	color: transparent;
+	margin-top: 400px;
+	right: 0px;
+	animation-name: g;
+	animation-delay: 6s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes g{
+	0%{
+		color: transparent;
+		margin-top: 400px;
+		right: 0px;				
+	}
+	100%{
+		font-size: 70px;
+		color: white;
+		transform: translateX(-440px);
+		transition-property: transform,color,font-size;
+	}
+}
+
+.h{
+	color:transparent;
+	margin-top: 400px;
+	right: 0px;
+	animation-name: h;
+	animation-delay: 7s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes h{
+	0%{
+		color: transparent;
+		margin-top: 400px;
+		right: 0px;				
+	}
+	100%{
+		font-size: 70px;
+		color: white;
+		transform: translateX(-120px);
+		transition-property: transform,color,font-size;
+	}
+}
+
+.bienvenido{
+	position: absolute;
+	width: 60%;
+	height: 120px;
+	background: #000;
+	margin: auto;
+	left: 0;
+	right: 0;
+	border-radius: 50px;
+	margin-top:-200px;
+	box-shadow:4px 4px #237b8a;
+
+	animation-name: bienvenido;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+@keyframes bienvenido{
+	0%{
+
+		margin-top:-200px;		
+	}
+	100%{
+
+		transform: translateY(200px);
+		transition-property: transform;	
+	}
+}
+.texto{
+	position: absolute;	
+	width: 50%;
+	height: 10px;
+	background: black;
+	border-radius: 80px;
+	box-shadow: 3px 3px #237b8a;
+	margin-top: 320px;
+	left: -820px;
+	animation-name: texto;
+	animation-delay: 1s;
+	animation-duration: 5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes texto{
+	0%{
+		margin-top: 320px;
+		left: -820px;
+	}
+	100%{
+		transform: translateX(820px);
+		transition-property: transform;
+	}
+}
+.nombre{
+
+	position: absolute;	
+	width: 50%;
+	height: 10px;
+	background: transparent;
+	border-radius: 80px;
+	box-shadow: 3px 3px transparent;
+	right: 0px;
+	margin-top: 475px;
+
+	animation-name: nombre;
+	animation-delay: 7s;
+	animation-duration: 2.5s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+@keyframes nombre{
+	0%{
+		right:0px;
+		margin-top: 475px;
+		width: 0px;
+	}
+	100%{
+		
+		background: #000;
+		box-shadow:3px 3px #237b8a;
+		width: 50%;
+		transition-property:width;
+
+	}
+}
+
+@media only screen and (max-width: 480px){
+
+	.contenedor-bienvenida{
+		height: 800px;
+		
+	}
+	.bienvenido{
+		width: 95%; 
+	}
+	.a{
+	font-size: 40px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	animation-name: a;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+
+	}
+	@keyframes a{
+		0%{
+			font-size: 40px;
+			color:transparent;
+			margin-top:-60px; 
+		}
+		100%{
+			color: white;
+			transform: translateY(35px) scale(1.2);
+			transition-property:transform,color ;
+		}
+	}
+	.texto{
+		position: absolute;	
+		width: 100%;
+		height: 10px;
+		background: transparent;
+		border-radius: 80px;
+		box-shadow: 3px 3px transparent;
+		margin-top:295px;
+		left:1px;
+		animation-name: texto;
+		animation-delay: 1s;
+		animation-duration: 5s;
+		animation-direction: normal;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+	}	
+	@keyframes texto{
+		0%{
+			background: transparent;
+			margin-top: 295px;
+			left: 1px;
+			width: 0%;
+		}	
+		100%{
+			background: #000;
+			box-shadow:3px 3px #237b8a;
+			width: 90%;
+			transition-property: width;
+		}
+	}
+	.nombre{
+
+		position: absolute;	
+		width: 100%;
+		height: 10px;
+		background: transparent;
+		border-radius: 80px;
+		box-shadow: 3px 3px transparent;
+		right: 1px;
+		margin-top: 440px;
+
+		animation-name: nombre;
+		animation-delay: 7s;
+		animation-duration: 2.5s;
+		animation-direction: normal;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+
+	}
+	@keyframes nombre{
+		0%{
+			right:1px;
+			margin-top: 440px;
+			width: 0px;
+		}
+		100%{
+		
+			background: #000;
+			box-shadow:3px 3px #237b8a;
+			width: 90%;
+			transition-property:width;
+
+		}
+	}
+
+	.b{
+	font-size: 30px;
+	margin-top: 260px;
+	left: -105px;
+	animation-name: b;
+	animation-delay: 2s;
+	animation-duration: 1s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+@keyframes b{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -105px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(110px);
+		transition-property: transform,color;
+	}
+}
+.c{
+	font-size: 30px;
+	margin-top: 260px;
+	left: -105px;
+	animation-name: c;
+	animation-delay: 2s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes c{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -105px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(180px);
+		transition-property: transform,color;
+	}
+}
+.d{
+	font-size: 30px;
+	margin-top: 260px;
+	left: -105px;
+	animation-name: d;
+	animation-delay: 3s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes d{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -105px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(215px);
+		transition-property: transform,color;
+	}
+}
+
+.e{
+	font-size: 30px;
+	margin-top: 260px;
+	left: -200px;
+	animation-name: e;
+	animation-delay: 4s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes e{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -200px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(340px);
+		transition-property: transform,color;
+	}
+}
+.f{
+	font-size: 30px;
+	margin-top: 260px;
+	left: -200px;
+	animation-name: f;
+	animation-delay: 5s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes f{
+	0%{
+		color: transparent;
+		margin-top: 260px;
+		left: -70px;				
+	}
+	100%{
+		color: white;
+		transform: translateX(465px);
+		transition-property: transform,color;
+	}
+}
+.g{
+	color: transparent;
+	margin-top: 400px;
+	right: 0px;
+	animation-name: g;
+	animation-delay: 6s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes g{
+	0%{
+		color: transparent;
+		margin-top: 400px;
+		right: 0px;				
+	}
+	100%{
+		font-size: 40px;
+		color: white;
+		transform: translateX(-220px);
+		transition-property: transform,color,font-size;
+	}
+}
+
+.h{
+	color:transparent;
+	margin-top: 400px;
+	right: 0px;
+	animation-name: h;
+	animation-delay: 7s;
+	animation-duration: 2s;
+	animation-direction: normal;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes h{
+	0%{
+		color: transparent;
+		margin-top: 400px;
+		right: 0px;				
+	}
+	100%{
+		font-size: 40px;
+		color: white;
+		transform: translateX(-40px);
+		transition-property: transform,color,font-size;
+	}
+}
+
+}
+
+a button{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	margin-top:600px;
+	width: 100px;
+	height: 50px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+
+
+/*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Indie Flower','monospace';	
+}
+
+.contenedor-bienvenida{
+	width: 100%;
+	height: 170vh;
+	background: #8cff9e;
+
+	position: absolute;
+
+	z-index: 200;
+}
+p{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	margin-top: -60px;
+
+	transform: translateY(120px);
+	transition-property: transform;
+	transition-delay: 2s;
+	transition-duration: 3s;
+	position: absolute;
+}
+.container{
+	display: none;
+}
+
+@media only screen and (max-width: 480px){
+	.contenedor-bienvenida{
+		background:#8cff9e;
+		z-index: 200;
+	}
+	p{
+		font-size: 40px;
+	}
+*/
