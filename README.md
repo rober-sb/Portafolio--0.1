@@ -1,6 +1,5 @@
 # Portafolio--0.1
 
-# Portafolio--0.1
 
 _Pequeño proyecto de un portafolio con css _
 
